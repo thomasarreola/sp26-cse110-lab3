@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting minutes</title>
+    <link rel="icon" href="./favicon-16x16.png">
+</head>
+<body>
+    <header>
+        <h1>Add Recipe Button Discussion</h1>
+        <hr>
+    </header>
+    <nav>
+        <a href="#Unfinished_Business">Unfinished Business</a>
+        <a href="#Business">Business</a>
+        <a href="#Agenda">Agenda</a>
+        <a href="#Brainstorming">Brainstorming</a>
+        <a href="#Task_Assignments">Task Assignments</a>
+        <a href="#Concerns">Concerns</a>
+        <a href="#Documentation">Documentation</a>
+        <a href="#Form">Form</a>
+        </nav>
+        <hr>
+    <main>
+            <p>April 4th, 2026</p>
+        <section id="Unfinished_Business">
+        <hr>
+        <h2>Unfinished business from April 3rd, 2026</h2>
+            <ul>
+                <li>Check on progress on tab bar</li>
+                <li>Test implimentation so far</li>
+            </ul>
+        </section>
+        <section id="Business">
+        <hr>
+        <h2>Business to cover April 4th, 2026</h2>
+            <ul>
+                <li>Brainstorm <strong>add recipe button implementaiton</strong></li>
+                <li>Delegate tasks to do implementation</li>
+            </ul>
+        </section>
+        <section id="Agenda">
+        <hr>
+        <h2>Agenda</h2>
+            <ol>
+                <li>Call attendance</li>
+                <li>Introduce and explain meeting topic</li>
+                <li>Brainstorm implementation with the team</li>
+                <li>Delegate tasks to team members</li>
+            </ol>
+        </section>
+        <section id="Brainstorming">
+        <hr>
+        <h2>Brainstorming</h2>
+            <ul>
+                <li>It could be circle shaped</li>
+                <li>We could use arial for the button text</li>
+                <li>It could br green</li>
+            </ul>
+        </section>
+        <section id="Task_Assignments">
+        <hr>
+        <h2>Task Assignments</h2>
+            <ol>
+                <li>John Smith does Synergy Alignment Assessment</li>
+                <li>Jane Mo writes emails about product to CEO</li>
+                <li>Joe Ma <i>micromanages</i></li>
+                <li>Steve Lee does UI, does the backend, tests, and also announces feature to user</li>
+            </ol>
+        </section>
+        <section id="Concerns">
+        <hr>
+        <h2>Concerns</h2>
+            <ol>
+                <li>John brought up our <em>1 billion profit loss</em> this quarter</li>
+                <li>Joe brought up creating our own LLM to build our the project and let up compete against Anthropic</li>
+                <li>Steve brought up getting his time off, Joe dismisses him saying he is too important</li>
+            </ol>
+        </section>
+        <section id="Documentation">
+        <hr>
+        <h2>Documentation</h2>
+        <details>
+            <summary>Attendance List</summary>
+                <ul>
+                    <li>John Smith</li>
+                    <li>Jane Mo</li>
+                    <li>Joe Ma</li>
+                    <li>Steve Lee</li>
+                </ul>
+        </details>
+            <h3>Diagrams/Meeting Audio/Meeting Video</h3>
+                <div class="media">
+                    <img src="./April_4th_Diagram.png" width="250" alt="sad steve">
+                    <br>
+                    <p><span>Joe</span> made this diagram</p>
+                    <audio src="./April_4th_Audio.m4a" controls>
+                        Audio
+                    </audio>
+                    <br>
+                    <video src="./April_4th_meeting_recording.mov" width="250" controls></video>
+                </div>
+            <br>
+        </section>
+        <section id="Form">
+            <h2>Meeting Feedback</h2>
+            <form>
+                <fieldset>
+                    <div>
+                        <label>What is your name<input type="text"></label>
+                    </div>
+                    <div>
+                        <label>Did you attend the meeting?<input type="checkbox"></label>
+                    </div>
+                    <div>
+                        <label>Did you find this meeting productive?</label>
+                        <div>
+                            <label>Yes<input type="radio" name="productive"></label>
+                        </div>
+                        <div>
+                            <label>No<input type="radio" name="productive"></label>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="enjoyment">How much did you enjoy the meeting today (1-5)?</label>
+                        
+                        <select id="enjoyment">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label >Who was the MVP of the meeting?</label>
+                        <input list="MVP">
+                        <datalist id="MVP">
+                            <option value="John">John</option>
+                            <option value="Jane">Jane</option>
+                            <option value="Joe">Joe</option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label>When is your birthday?<input type="date"></label>
+                    </div>
+                    <div>
+                        <textarea placeholder="Put additional comments here"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p><b>@Joe Corp</b></p>
+    </footer>
+</body>
+</html>
