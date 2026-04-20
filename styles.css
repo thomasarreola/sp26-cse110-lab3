@@ -20,6 +20,7 @@ nav {
     font-size: 0.40in;
 }
 
+/* only changes the style on the data*/
 #date {
     text-align: center;
 }
