@@ -11,10 +11,12 @@ body {
     text-align: center;
     color: #000000;
     text-decoration: none;
+    font-size: 0.40in;
 }
 
 #trademark {
     text-decoration: underline black;
+    font-size: 14px;
 }
 
 #form {
@@ -30,6 +32,7 @@ body {
 
 .normal-text {
     color: rgb(0,0,0);
+    font-size: 12pt;
 }
 
 
