@@ -8,12 +8,20 @@ body {
     background-color: color-mix(in oklab, #FF7F50 32.7%, #00FFFF 24.3%) = oklab(0.807706 0.00988439 0.0454849 / 0.57);
 }
 
+nav {
+    text-align: center;
+}
+
 
 #title {
     text-align: center;
     color: #000000;
     text-decoration: none;
     font-size: 0.40in;
+}
+
+#date {
+    text-align: center;
 }
 
 #trademark {
