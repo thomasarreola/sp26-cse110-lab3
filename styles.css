@@ -75,6 +75,10 @@ input {
     margin-left: 1em;
 }
 
+input[type="text"]{ 
+    color: var(--main-color, black); 
+}
+
 a:hover{
     background-color: white;
     color: black;
