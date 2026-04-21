@@ -7,6 +7,8 @@
 body {
     background-color: color-mix(in oklab, #FF7F50 32.7%, #00FFFF 24.3%) = oklab(0.807706 0.00988439 0.0454849 / 0.57);
     margin: 0px;
+    max-width: 1400px;
+    max-height: none;
 }
 
 nav {
