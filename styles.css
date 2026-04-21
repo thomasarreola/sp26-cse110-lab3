@@ -8,6 +8,11 @@
     font-size: 16px;
     font-family: "Roboto", sans-serif;
 }
+@media screen and (max-width: 200px) {
+    body{
+        background-color: gray;
+    }
+}
 
 body {
     background-color: color-mix(in oklab, #FF7F50 32.7%, #00FFFF 24.3%) = oklab(0.807706 0.00988439 0.0454849 / 0.57);
@@ -105,6 +110,7 @@ p + section {
     font-size: 0.40in;
 }
 
+
 /* only changes the style on the data*/
 #date {
     text-align: center;
@@ -117,6 +123,7 @@ p + section {
     font-size: 1em;
     border: 1px solid black;
     display: inline;
+    background-color: black;
 }
 
 #form {
