@@ -11,6 +11,20 @@ body {
     max-height: none;
 }
 
+b, strong, em, i {
+    color: white;
+}
+
+section {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    background-color: rgb(44, 63, 67);
+    color: white;
+}
+
 nav {
     text-align: center;
     display: flex;
@@ -32,6 +46,7 @@ div .media-grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
 
 nav > a {
@@ -62,6 +77,10 @@ img ~ p {
     font-style:italic;
 }
 
+p + section {
+    margin: 1em;
+}
+
 #title {
     text-align: center;
     color: #000000;
@@ -85,16 +104,17 @@ img ~ p {
 
 #form {
     color: color(display-p3 1 0.5 0);
-
+    margin: auto;
 }
 
 .heading {
-    color: black;
+    color: white;
     font-size: 1.5rem;
+    margin: 20px;
 }
 
 .normal-text {
-    color: rgb(0,0,0);
+    color: rgb(255,255,255);
     font-size: 12pt;
 }
 
@@ -141,4 +161,6 @@ div a {
     background-color: white;
     a { color: black;}
 }
+
+
 
