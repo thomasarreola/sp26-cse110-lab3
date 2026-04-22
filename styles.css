@@ -65,8 +65,8 @@ div .media-grid-item {
 nav > a {
     border-style: solid;
     border-color: white;
-    border-width: 2;
-    border-radius: 2;
+    border-width: 2px;
+    border-radius: 2px;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-right: 4px;
